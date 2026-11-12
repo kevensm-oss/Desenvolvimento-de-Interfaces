@@ -17,12 +17,21 @@ Você pode criar uma página sobre um hobby, profissão, cidade, filme, esporte,
 
 ## Entrega
 
-Envie o arquivo .html criado na atividade na pasta projetos-web.
+1. Envie o arquivo .html criado na atividade na pasta projetos-web.
+2. Dentro de projetos-web, crie uma pasta específica para esta prática.
+3. A estrutura inicial no Repositório do GitHub deverá ficar assim:
 
-Dentro de projetos-web, crie uma pasta específica para esta prática:
+   ```
+   projetos-web/
+   └── primeira-pagina-html5/
+   ```
 
-A estrutura inicial no Repositório do GitHub deverá ficar assim:
+4. Antes de enviar, abra o arquivo em um navegador e verifique se todos os elementos estão sendo apresentados corretamente.
 
-```
-projetos-web/
-└──
+## Desafio extra ⭐
+
+Para quem quiser praticar um pouco mais, acrescente outros elementos HTML estudados no módulo, como diferentes níveis de títulos, imagens adicionais, links ou outras listas.
+
+Bom trabalho e bons estudos! 💻
+
+Última atualização: quinta-feira, 29 out. 2026, 10:33
