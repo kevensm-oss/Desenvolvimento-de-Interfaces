@@ -1,0 +1,74 @@
+* { box-sizing: border-box; }
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f1f6;
+  margin: 0;
+  padding: 30px 16px;
+  color: #222;
+}
+
+.topo { text-align: center; margin-bottom: 10px; }
+.topo h1 { color: #43054e; margin-bottom: 4px; }
+.topo p { margin: 4px 0; color: #555; }
+.topo .dica { font-size: 14px; color: #662c92; }
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+
+.cartao {
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .10);
+}
+
+h2 { color: #43054e; text-align: center; margin-top: 0; }
+
+label { display: block; margin-top: 15px; }
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+input:focus-visible, button:focus-visible {
+  outline: 3px solid #c0007a;
+  outline-offset: 2px;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: #662c92;
+  color: white;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover { background: #43054e; }
+
+#resultado, #resultadoMedia {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f3f4f6;
+  border-radius: 6px;
+}
+
+#resultado p { margin: 6px 0; }
+
+.erro { color: #b00020; font-weight: bold; }
+.sucesso { color: #1b5e20; font-weight: bold; font-size: 1.2em; }
